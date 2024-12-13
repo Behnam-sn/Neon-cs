@@ -1,3 +1,4 @@
+using Neon.Domain.Entities.Addresses;
 using Neon.Domain.Entities.Carts;
 
 namespace Neon.Domain.Entities.Users;

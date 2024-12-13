@@ -1,4 +1,5 @@
 using Neon.Domain.Abstractions;
+using Neon.Domain.Entities.Addresses;
 
 namespace Neon.Domain.Entities.Places;
 

@@ -2,7 +2,7 @@ using Neon.Domain.Abstractions;
 using Neon.Domain.Entities.Users;
 using Neon.Domain.ValueObjects;
 
-namespace Neon.Domain.Entities;
+namespace Neon.Domain.Entities.Addresses;
 
 public sealed class Address : Entity
 {
