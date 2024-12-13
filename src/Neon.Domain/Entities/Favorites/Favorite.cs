@@ -1,4 +1,5 @@
 using Neon.Domain.Abstractions;
+using Neon.Domain.Entities.Products;
 using Neon.Domain.Entities.Users;
 
 namespace Neon.Domain.Entities.Favorites;

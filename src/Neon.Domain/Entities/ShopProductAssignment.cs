@@ -1,5 +1,6 @@
 using Neon.Domain.Abstractions;
 using Neon.Domain.Entities.Places;
+using Neon.Domain.Entities.Products;
 
 namespace Neon.Domain.Entities;
 

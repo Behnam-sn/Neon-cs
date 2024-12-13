@@ -1,7 +1,7 @@
 using Neon.Domain.Abstractions;
 using Neon.Domain.Entities.Categories;
 
-namespace Neon.Domain.Entities;
+namespace Neon.Domain.Entities.Products;
 
 public sealed class Product : Entity
 {
