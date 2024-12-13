@@ -17,6 +17,10 @@ public sealed class Address : Entity
     public bool IsPrimary { get; private set; }
     public User Owner { get; private set; }
 
+    private Address()
+    {
+    }
+
     public void SetAsPrimary()
     {
         IsPrimary = true;
