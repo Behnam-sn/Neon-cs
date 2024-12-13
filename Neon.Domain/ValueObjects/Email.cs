@@ -1,6 +1,6 @@
 namespace Neon.Domain.ValueObjects;
 
-public struct Email
+public readonly struct Email
 {
-    public string Value { get; private set; }
+    public string Value { get; }
 }
