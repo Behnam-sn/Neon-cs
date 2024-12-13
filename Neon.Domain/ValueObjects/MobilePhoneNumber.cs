@@ -1,6 +1,6 @@
 namespace Neon.Domain.ValueObjects;
 
-public struct MobilePhoneNumber
+public readonly struct MobilePhoneNumber
 {
-    public string Value { get; private set; }
+    public string Value { get; }
 }
