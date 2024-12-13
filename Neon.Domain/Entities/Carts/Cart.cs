@@ -10,5 +10,5 @@ public sealed class Cart : Entity
     public List<CartItem> Items { get; private set; }
     public Customer Owner { get; private set; }
 
-    // Delivery
+    // Shipping
 }
