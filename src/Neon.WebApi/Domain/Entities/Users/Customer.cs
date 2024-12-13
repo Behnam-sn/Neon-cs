@@ -1,8 +1,8 @@
-using Neon.Domain.Entities.Addresses;
-using Neon.Domain.Entities.Carts;
-using Neon.Domain.Entities.Favorites;
+using Neon.WebApi.Domain.Entities.Addresses;
+using Neon.WebApi.Domain.Entities.Carts;
+using Neon.WebApi.Domain.Entities.Favorites;
 
-namespace Neon.Domain.Entities.Users;
+namespace Neon.WebApi.Domain.Entities.Users;
 
 public sealed class Customer : User
 {

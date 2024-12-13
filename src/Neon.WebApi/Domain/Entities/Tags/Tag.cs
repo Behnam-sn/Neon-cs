@@ -1,7 +1,7 @@
-using Neon.Domain.Abstractions;
-using Neon.Domain.Entities.Products;
+using Neon.WebApi.Domain.Abstractions;
+using Neon.WebApi.Domain.Entities.Products;
 
-namespace Neon.Domain.Entities.Tags;
+namespace Neon.WebApi.Domain.Entities.Tags;
 
 public sealed class Tag : Entity
 {

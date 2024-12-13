@@ -1,8 +1,8 @@
-using Neon.Domain.Abstractions;
-using Neon.Domain.Entities.Products;
-using Neon.Domain.Entities.Users;
+using Neon.WebApi.Domain.Abstractions;
+using Neon.WebApi.Domain.Entities.Products;
+using Neon.WebApi.Domain.Entities.Users;
 
-namespace Neon.Domain.Entities.Favorites;
+namespace Neon.WebApi.Domain.Entities.Favorites;
 
 public sealed class Favorite : Entity
 {

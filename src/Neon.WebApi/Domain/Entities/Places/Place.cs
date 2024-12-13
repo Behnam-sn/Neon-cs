@@ -1,7 +1,7 @@
-using Neon.Domain.Abstractions;
-using Neon.Domain.Entities.Addresses;
+using Neon.WebApi.Domain.Abstractions;
+using Neon.WebApi.Domain.Entities.Addresses;
 
-namespace Neon.Domain.Entities.Places;
+namespace Neon.WebApi.Domain.Entities.Places;
 
 public abstract class Place : Entity
 {

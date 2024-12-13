@@ -1,6 +1,6 @@
-using Neon.Domain.Abstractions;
+using Neon.WebApi.Domain.Abstractions;
 
-namespace Neon.Domain.Entities.Orders;
+namespace Neon.WebApi.Domain.Entities.Orders;
 
 public class OrderItem : Entity
 {

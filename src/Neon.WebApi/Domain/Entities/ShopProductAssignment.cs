@@ -1,8 +1,8 @@
-using Neon.Domain.Abstractions;
-using Neon.Domain.Entities.Places;
-using Neon.Domain.Entities.Products;
+using Neon.WebApi.Domain.Abstractions;
+using Neon.WebApi.Domain.Entities.Places;
+using Neon.WebApi.Domain.Entities.Products;
 
-namespace Neon.Domain.Entities;
+namespace Neon.WebApi.Domain.Entities;
 
 public sealed class ShopProductAssignment : Entity
 {

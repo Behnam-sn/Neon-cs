@@ -1,8 +1,8 @@
-using Neon.Domain.Abstractions;
-using Neon.Domain.Entities.Categories;
-using Neon.Domain.Entities.Tags;
+using Neon.WebApi.Domain.Abstractions;
+using Neon.WebApi.Domain.Entities.Categories;
+using Neon.WebApi.Domain.Entities.Tags;
 
-namespace Neon.Domain.Entities.Products;
+namespace Neon.WebApi.Domain.Entities.Products;
 
 public sealed class Product : Entity
 {

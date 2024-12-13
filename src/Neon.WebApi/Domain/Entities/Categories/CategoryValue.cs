@@ -1,7 +1,7 @@
-using Neon.Domain.Abstractions;
-using Neon.Domain.Entities.Products;
+using Neon.WebApi.Domain.Abstractions;
+using Neon.WebApi.Domain.Entities.Products;
 
-namespace Neon.Domain.Entities.Categories;
+namespace Neon.WebApi.Domain.Entities.Categories;
 
 public sealed class CategoryValue : Entity
 {

@@ -1,7 +1,7 @@
-using Neon.Domain.Abstractions;
-using Neon.Domain.ValueObjects;
+using Neon.WebApi.Domain.Abstractions;
+using Neon.WebApi.Domain.ValueObjects;
 
-namespace Neon.Domain.Entities.Users;
+namespace Neon.WebApi.Domain.Entities.Users;
 
 public abstract class User : Entity
 {

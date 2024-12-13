@@ -1,4 +1,4 @@
-namespace Neon.Domain.Entities.Places;
+namespace Neon.WebApi.Domain.Entities.Places;
 
 public sealed class Shop : Place
 {

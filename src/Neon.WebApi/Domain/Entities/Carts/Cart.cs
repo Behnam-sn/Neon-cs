@@ -1,8 +1,8 @@
-using Neon.Domain.Abstractions;
-using Neon.Domain.Entities.Places;
-using Neon.Domain.Entities.Users;
+using Neon.WebApi.Domain.Abstractions;
+using Neon.WebApi.Domain.Entities.Places;
+using Neon.WebApi.Domain.Entities.Users;
 
-namespace Neon.Domain.Entities.Carts;
+namespace Neon.WebApi.Domain.Entities.Carts;
 
 public sealed class Cart : Entity
 {

@@ -1,4 +1,4 @@
-namespace Neon.Domain.Abstractions;
+namespace Neon.WebApi.Domain.Abstractions;
 
 public abstract class Entity
 {

@@ -1,8 +1,8 @@
-using Neon.Domain.Abstractions;
-using Neon.Domain.Entities.Users;
-using Neon.Domain.ValueObjects;
+using Neon.WebApi.Domain.Abstractions;
+using Neon.WebApi.Domain.Entities.Users;
+using Neon.WebApi.Domain.ValueObjects;
 
-namespace Neon.Domain.Entities.Addresses;
+namespace Neon.WebApi.Domain.Entities.Addresses;
 
 public sealed class Address : Entity
 {
