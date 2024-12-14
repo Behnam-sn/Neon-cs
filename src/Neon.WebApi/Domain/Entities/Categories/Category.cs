@@ -6,5 +6,5 @@ public sealed class Category : Entity
 {
     public string Title { get; private set; }
     public Category? Parent { get; private set; }
-    public List<CategoryField> Fields { get; private set; }
+    public List<CategoryAttribute> Attributes { get; private set; }
 }
