@@ -4,7 +4,7 @@ using Neon.WebApi.Domain.Enums.DeliveryCapacities;
 
 namespace Neon.WebApi.Domain.Entities.DeliveryCapacities;
 
-public sealed class DeliveryCapacity : Entity
+public abstract class DeliveryCapacity : Entity
 {
     public DateOnly Date { get; }
     public TimeOnly From { get; }
