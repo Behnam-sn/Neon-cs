@@ -10,4 +10,6 @@ public sealed class ShopProductAssignment : Entity
     public Product Product { get; private set; }
     public decimal Price { get; private set; }
     public long Quantity { get; private set; }
+
+    // Discount?
 }
