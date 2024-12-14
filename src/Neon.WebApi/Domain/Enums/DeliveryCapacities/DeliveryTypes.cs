@@ -1,6 +1,6 @@
 namespace Neon.WebApi.Domain.Enums.DeliveryCapacities;
 
-public enum DeliveryType
+public enum DeliveryTypes
 {
     Shipping,
     InPlace

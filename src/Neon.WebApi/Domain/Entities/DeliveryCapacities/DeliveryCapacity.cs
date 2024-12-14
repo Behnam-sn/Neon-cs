@@ -10,6 +10,6 @@ public sealed class DeliveryCapacity : Entity
     public TimeOnly From { get; }
     public TimeOnly To { get; }
     public int Capacity { get; }
-    public DeliveryType Type { get; }
+    public DeliveryTypes Type { get; }
     public Shop Shop { get; }
 }
