@@ -1,4 +1,5 @@
 using Neon.WebApi.Domain.Abstractions;
+using Neon.WebApi.Domain.Entities.Deliveries;
 using Neon.WebApi.Domain.Entities.Places;
 using Neon.WebApi.Domain.Entities.Users;
 
@@ -9,6 +10,5 @@ public sealed class Cart : Entity
     public Shop Shop { get; private set; }
     public List<CartItem> Items { get; private set; }
     public Customer Owner { get; private set; }
-
-    // Shipping
+    public Delivery Delivery { get; }
 }
