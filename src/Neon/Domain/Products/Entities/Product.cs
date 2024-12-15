@@ -1,7 +1,7 @@
 using Neon.Domain.Categories.Entities;
 using Neon.Domain.Reviews.Entities;
 using Neon.Domain.Shared.Abstractions;
-using Neon.Domain.Shops.Entities;
+using Neon.Domain.ShopProducts.Entities;
 using Neon.Domain.Tags.Entities;
 
 namespace Neon.Domain.Products.Entities;

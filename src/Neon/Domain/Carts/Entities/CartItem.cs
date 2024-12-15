@@ -1,5 +1,5 @@
 using Neon.Domain.Shared.Abstractions;
-using Neon.Domain.Shops.Entities;
+using Neon.Domain.ShopProducts.Entities;
 
 namespace Neon.Domain.Carts.Entities;
 

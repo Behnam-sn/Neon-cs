@@ -1,6 +1,7 @@
 using Neon.Domain.Branches.Entities;
 using Neon.Domain.DeliveryCapacities.Entities;
 using Neon.Domain.Shared.Abstractions;
+using Neon.Domain.ShopProducts.Entities;
 
 namespace Neon.Domain.Shops.Entities;
 

@@ -1,4 +1,4 @@
-namespace Neon.Domain.Shops.Enums;
+namespace Neon.Domain.ShopProducts.Enums;
 
 public enum ShopProductStates
 {

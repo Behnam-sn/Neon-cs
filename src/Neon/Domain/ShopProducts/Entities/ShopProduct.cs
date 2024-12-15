@@ -1,8 +1,9 @@
 using Neon.Domain.Products.Entities;
 using Neon.Domain.Shared.Abstractions;
-using Neon.Domain.Shops.Enums;
+using Neon.Domain.ShopProducts.Enums;
+using Neon.Domain.Shops.Entities;
 
-namespace Neon.Domain.Shops.Entities;
+namespace Neon.Domain.ShopProducts.Entities;
 
 public sealed class ShopProduct : Entity
 {
