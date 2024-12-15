@@ -5,5 +5,5 @@ namespace Neon.Domain.Payments.Entities;
 
 public sealed class Payment : Entity
 {
-    public Customer Owner { get; private set; }
+    public Customer Owner { get; }
 }

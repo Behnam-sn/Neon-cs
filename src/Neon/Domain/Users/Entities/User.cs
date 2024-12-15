@@ -5,8 +5,8 @@ namespace Neon.Domain.Users.Entities;
 
 public abstract class User : Entity
 {
-    public string FirstName { get; private set; }
-    public string LastName { get; private set; }
-    public Email Email { get; private set; }
-    public MobilePhoneNumber MobilePhoneNumber { get; private set; }
+    public string FirstName { get; }
+    public string LastName { get; }
+    public Email Email { get; }
+    public MobilePhoneNumber MobilePhoneNumber { get; }
 }

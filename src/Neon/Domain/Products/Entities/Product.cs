@@ -8,16 +8,16 @@ namespace Neon.Domain.Products.Entities;
 
 public sealed class Product : Entity
 {
-    public string Title { get; private set; }
-    public string Description { get; private set; }
-    public float AverageRate { get; private set; }
-    public int ReviewsCount { get; private set; }
-    public string Slug { get; private set; }
-    public Category Category { get; private set; }
-    public List<CategoryAttributeValue> CategoryAttributeValues { get; private set; }
-    public List<object> Images { get; private set; }
-    public List<Tag> Tags { get; private set; }
-    public List<Review> Reviews { get; private set; }
-    public List<Product> RelatedProducts { get; private set; }
-    public List<ShopProduct> ShopProductAssignments { get; private set; }
+    public string Title { get; }
+    public string Description { get; }
+    public float AverageRate { get; }
+    public int ReviewsCount { get; }
+    public string Slug { get; }
+    public Category Category { get; }
+    public List<CategoryAttributeValue> CategoryAttributeValues { get; }
+    public List<object> Images { get; }
+    public List<Tag> Tags { get; }
+    public List<Review> Reviews { get; }
+    public List<Product> RelatedProducts { get; }
+    public List<ShopProduct> ShopProductAssignments { get; }
 }

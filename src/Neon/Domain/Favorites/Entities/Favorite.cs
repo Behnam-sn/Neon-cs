@@ -6,6 +6,6 @@ namespace Neon.Domain.Favorites;
 
 public sealed class Favorite : Entity
 {
-    public Product Product { get; private set; }
-    public Customer Owner { get; private set; }
+    public Product Product { get; }
+    public Customer Owner { get; }
 }

@@ -5,7 +5,7 @@ namespace Neon.Domain.Categories.Entities;
 
 public sealed class CategoryAttributeValue : Entity
 {
-    public string Value { get; private set; }
-    public Product Product { get; private set; }
-    public CategoryAttribute CategoryField { get; private set; }
+    public string Value { get; }
+    public Product Product { get; }
+    public CategoryAttribute CategoryField { get; }
 }

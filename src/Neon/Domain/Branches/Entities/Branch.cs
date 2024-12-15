@@ -6,6 +6,6 @@ namespace Neon.Domain.Branches.Entities;
 
 public sealed class Branch : Entity
 {
-    public Address Address { get; private set; }
-    public Shop Shop { get; private set; }
+    public Address Address { get; }
+    public Shop Shop { get; }
 }

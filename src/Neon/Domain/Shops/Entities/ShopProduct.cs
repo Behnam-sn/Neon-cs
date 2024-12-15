@@ -5,10 +5,10 @@ namespace Neon.Domain.Shops.Entities;
 
 public sealed class ShopProduct : Entity
 {
-    public Shop Shop { get; private set; }
-    public Product Product { get; private set; }
-    public decimal Price { get; private set; }
-    public long Quantity { get; private set; }
+    public Shop Shop { get; }
+    public Product Product { get; }
+    public decimal Price { get; }
+    public long Quantity { get; }
 
     // Discount?
 }

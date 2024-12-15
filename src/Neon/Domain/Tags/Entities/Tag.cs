@@ -5,6 +5,6 @@ namespace Neon.Domain.Tags.Entities;
 
 public sealed class Tag : Entity
 {
-    public string Title { get; private set; }
-    public List<Product> Products { get; private set; }
+    public string Title { get; }
+    public List<Product> Products { get; }
 }

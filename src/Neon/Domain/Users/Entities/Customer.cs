@@ -8,9 +8,9 @@ namespace Neon.Domain.Users.Entities;
 
 public sealed class Customer : User
 {
-    public List<Address> Addresses { get; private set; }
-    public List<Cart> Carts { get; private set; }
-    public List<Payment> Payments { get; private set; }
-    public List<Favorite> Favorites { get; private set; }
-    public List<Review> Reviews { get; private set; }
+    public List<Address> Addresses { get; }
+    public List<Cart> Carts { get; }
+    public List<Payment> Payments { get; }
+    public List<Favorite> Favorites { get; }
+    public List<Review> Reviews { get; }
 }

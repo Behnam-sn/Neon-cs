@@ -6,8 +6,8 @@ namespace Neon.Domain.Reviews.Entities;
 
 public sealed class Review : Entity
 {
-    public int Rate { get; private set; }
-    public string Comment { get; private set; }
-    public Product Product { get; private set; }
-    public Customer Owner { get; private set; }
+    public int Rate { get; }
+    public string Comment { get; }
+    public Product Product { get; }
+    public Customer Owner { get; }
 }
