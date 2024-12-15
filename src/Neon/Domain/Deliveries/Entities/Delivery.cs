@@ -4,7 +4,7 @@ using Neon.Domain.DeliveryCapacities.Entities;
 using Neon.Domain.Shared.Abstractions;
 using Neon.Domain.Shared.ValueObjects;
 
-namespace Neon.Domain.Deliveries;
+namespace Neon.Domain.Deliveries.Entities;
 
 public sealed class Delivery : Entity
 {

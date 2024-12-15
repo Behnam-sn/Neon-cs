@@ -1,5 +1,5 @@
 using Neon.Domain.Carts.Enums;
-using Neon.Domain.Deliveries;
+using Neon.Domain.Deliveries.Entities;
 using Neon.Domain.Shared.Abstractions;
 using Neon.Domain.Shops.Entities;
 using Neon.Domain.Users.Entities;
