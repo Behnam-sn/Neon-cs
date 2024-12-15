@@ -19,5 +19,5 @@ public sealed class Product : Entity
     public List<Tag> Tags { get; }
     public List<Review> Reviews { get; }
     public List<Product> RelatedProducts { get; }
-    public List<ShopProduct> ShopProductAssignments { get; }
+    public List<ShopProduct> ShopProducts { get; }
 }

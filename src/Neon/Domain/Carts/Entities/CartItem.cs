@@ -6,6 +6,6 @@ namespace Neon.Domain.Carts.Entities;
 public sealed class CartItem : Entity
 {
     public long Quantity { get; }
-    public ShopProduct ShopProductAssignment { get; }
+    public ShopProduct ShopProduct { get; }
     public Cart Cart { get; }
 }

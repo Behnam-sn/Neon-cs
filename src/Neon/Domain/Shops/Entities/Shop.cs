@@ -6,7 +6,7 @@ namespace Neon.Domain.Shops.Entities;
 
 public sealed class Shop : Entity
 {
-    public List<ShopProduct> ShopProductAssignments { get; }
+    public List<ShopProduct> ShopProducts { get; }
     public List<Branch> Branches { get; }
     public List<DeliveryCapacity> DeliveryCapacities { get; }
 }

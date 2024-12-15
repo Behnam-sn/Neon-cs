@@ -4,5 +4,5 @@ namespace Neon.Domain.Users.Entities;
 
 public sealed class Vendor : User
 {
-    public List<ShopProduct> ShopProductAssignments { get; }
+    public List<ShopProduct> ShopProducts { get; }
 }
