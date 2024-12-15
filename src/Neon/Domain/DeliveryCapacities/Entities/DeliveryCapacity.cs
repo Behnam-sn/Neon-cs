@@ -6,10 +6,11 @@ namespace Neon.Domain.DeliveryCapacities.Entities;
 
 public abstract class DeliveryCapacity : Entity
 {
+    public DeliveryTypes Type { get; }
     public DateOnly Date { get; }
     public TimeOnly From { get; }
     public TimeOnly To { get; }
     public int Capacity { get; }
-    public DeliveryTypes Type { get; }
+    public decimal Cost { get; }
     public Shop Shop { get; }
 }
