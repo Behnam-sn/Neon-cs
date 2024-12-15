@@ -13,5 +13,6 @@ public abstract class DeliveryCapacity : Entity
     public TimeOnly To { get; }
     public long Capacity { get; }
     public Money Cost { get; }
+    public DeliveryCapacityStates State { get; }
     public Shop Shop { get; }
 }
