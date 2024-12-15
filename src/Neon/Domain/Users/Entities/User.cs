@@ -9,4 +9,7 @@ public abstract class User : Entity
     public string LastName { get; }
     public Email Email { get; }
     public MobilePhoneNumber MobilePhoneNumber { get; }
+    public GenderTypes Gender { get; }
+    public NationalCode NationalCode { get; }
+    public DateOnly BirthDate { get; }
 }
