@@ -1,6 +1,6 @@
 using Neon.Domain.Addresses.Entities;
 using Neon.Domain.Carts.Entities;
-using Neon.Domain.Favorites;
+using Neon.Domain.Favorites.Entities;
 using Neon.Domain.Payments.Entities;
 using Neon.Domain.Reviews.Entities;
 

@@ -2,7 +2,7 @@ using Neon.Domain.Products.Entities;
 using Neon.Domain.Shared.Abstractions;
 using Neon.Domain.Users.Entities;
 
-namespace Neon.Domain.Favorites;
+namespace Neon.Domain.Favorites.Entities;
 
 public sealed class Favorite : Entity
 {
