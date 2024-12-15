@@ -1,4 +1,4 @@
-namespace Neon.Domain.Users.Entities;
+namespace Neon.Domain.Users.Enums;
 
 public enum GenderTypes
 {
