@@ -1,3 +1,4 @@
+using Neon.Domain.Addresses.Enums;
 using Neon.Domain.Addresses.ValueObjects;
 using Neon.Domain.Shared.Abstractions;
 using Neon.Domain.Shared.ValueObjects;
@@ -7,6 +8,7 @@ namespace Neon.Domain.Addresses.Entities;
 
 public sealed class Address : Entity
 {
+    public AddressStates State { get; }
     public AddressName Name { get; }
     public Country Country { get; }
     public Province Province { get; }
