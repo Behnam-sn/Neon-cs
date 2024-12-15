@@ -1,3 +1,4 @@
+using Neon.Domain.Deliveries.Enums;
 using Neon.Domain.DeliveryCapacities.Enums;
 using Neon.Domain.Shared.Abstractions;
 using Neon.Domain.Shared.ValueObjects;

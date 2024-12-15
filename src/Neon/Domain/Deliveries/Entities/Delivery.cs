@@ -1,15 +1,15 @@
-using Neon.Domain.Addresses.Entities;
 using Neon.Domain.Carts.Entities;
+using Neon.Domain.Deliveries.Enums;
 using Neon.Domain.DeliveryCapacities.Entities;
 using Neon.Domain.Shared.Abstractions;
 using Neon.Domain.Shared.ValueObjects;
 
 namespace Neon.Domain.Deliveries.Entities;
 
-public sealed class Delivery : Entity
+public abstract class Delivery : Entity
 {
-    public Address Address { get; }
     public Price Cost { get; }
     public Cart Cart { get; }
+    public DeliveryTypes Type { get; }
     public DeliveryCapacity DeliveryCapacity { get; }
 }
