@@ -1,5 +1,6 @@
 using Neon.Domain.Shared.Abstractions;
 using Neon.Domain.Shared.ValueObjects;
+using Neon.Domain.Users.Enums;
 
 namespace Neon.Domain.Users.Entities;
 
