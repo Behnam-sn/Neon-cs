@@ -8,9 +8,9 @@ namespace Neon.Domain.Carts.Entities;
 
 public sealed class Cart : Entity
 {
+    public CartStates State { get; }
     public Shop Shop { get; }
-    public List<CartItem> Items { get; }
     public Customer Owner { get; }
     public Delivery Delivery { get; }
-    public CartStates State { get; }
+    public List<CartItem> Items { get; }
 }
