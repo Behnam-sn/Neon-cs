@@ -8,7 +8,6 @@ namespace Neon.Domain.Addresses.Entities;
 
 public sealed class Address : Entity
 {
-    public AddressStates State { get; }
     public AddressName Name { get; }
     public Country Country { get; }
     public Province Province { get; }
@@ -18,6 +17,7 @@ public sealed class Address : Entity
     public PostalCode PostalCode { get; }
     public AddressDetails Details { get; }
     public bool IsPrimary { get; private set; }
+    public AddressStates State { get; }
     public User Owner { get; }
 
     private Address()
