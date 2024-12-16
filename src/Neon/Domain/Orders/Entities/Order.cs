@@ -1,3 +1,4 @@
+using Neon.Domain.OrderItems.Entities;
 using Neon.Domain.Orders.Enums;
 using Neon.Domain.Payments.Entities;
 using Neon.Domain.Shared.Abstractions;
