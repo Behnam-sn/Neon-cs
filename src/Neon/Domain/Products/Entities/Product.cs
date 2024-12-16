@@ -1,4 +1,5 @@
 using Neon.Domain.Categories.Entities;
+using Neon.Domain.CategoryAttributeValues.Entities;
 using Neon.Domain.ProductAttributes.Entities;
 using Neon.Domain.Reviews.Entities;
 using Neon.Domain.Shared.Abstractions;
