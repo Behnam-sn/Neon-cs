@@ -1,5 +1,6 @@
 using Neon.Domain.Addresses.Enums;
 using Neon.Domain.Addresses.ValueObjects;
+using Neon.Domain.Cities.Entities;
 using Neon.Domain.Countries.Entities;
 using Neon.Domain.Provinces.Entities;
 using Neon.Domain.Shared.Abstractions;
