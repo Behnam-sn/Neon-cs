@@ -1,8 +1,9 @@
-using Neon.Domain.Carts.Enums;
+using Neon.Domain.CartItems.Enums;
+using Neon.Domain.Carts.Entities;
 using Neon.Domain.Shared.Abstractions;
 using Neon.Domain.ShopProducts.Entities;
 
-namespace Neon.Domain.Carts.Entities;
+namespace Neon.Domain.CartItems.Entities;
 
 public sealed class CartItem : Entity
 {

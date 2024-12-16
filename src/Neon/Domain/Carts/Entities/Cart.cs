@@ -1,3 +1,4 @@
+using Neon.Domain.CartItems.Entities;
 using Neon.Domain.Carts.Enums;
 using Neon.Domain.Deliveries.Entities;
 using Neon.Domain.Shared.Abstractions;

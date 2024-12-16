@@ -1,4 +1,4 @@
-namespace Neon.Domain.Carts.Enums;
+namespace Neon.Domain.CartItems.Enums;
 
 public enum CartItemStates
 {
