@@ -1,7 +1,8 @@
+using Neon.Domain.ProductAttributes.Entities;
 using Neon.Domain.Shared.Abstractions;
 using Neon.Domain.Shops.Entities;
 
-namespace Neon.Domain.ProductAttributes.Entities;
+namespace Neon.Domain.ProductAttributeValues.Entities;
 
 public sealed class ProductAttributeValue : Entity
 {

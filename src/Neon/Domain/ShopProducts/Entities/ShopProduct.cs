@@ -1,4 +1,4 @@
-using Neon.Domain.ProductAttributes.Entities;
+using Neon.Domain.ProductAttributeValues.Entities;
 using Neon.Domain.Products.Entities;
 using Neon.Domain.Shared.Abstractions;
 using Neon.Domain.ShopProducts.Enums;
