@@ -1,4 +1,4 @@
-namespace Neon.Domain.Categories.Enums;
+namespace Neon.Domain.CategoryAttributes.Enums;
 
 public enum CategoryAttributeDataType
 {

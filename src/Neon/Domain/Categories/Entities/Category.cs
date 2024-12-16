@@ -1,3 +1,4 @@
+using Neon.Domain.CategoryAttributes.Entities;
 using Neon.Domain.Shared.Abstractions;
 
 namespace Neon.Domain.Categories.Entities;
