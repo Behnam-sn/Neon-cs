@@ -1,3 +1,4 @@
+using Neon.Domain.Countries.Entities;
 using Neon.Domain.Shared.ValueObjects;
 
 namespace Neon.Domain.DeliveryCapacities.Entities;
