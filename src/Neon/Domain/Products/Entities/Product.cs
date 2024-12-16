@@ -1,4 +1,5 @@
 using Neon.Domain.Categories.Entities;
+using Neon.Domain.ProductAttributes.Entities;
 using Neon.Domain.Reviews.Entities;
 using Neon.Domain.Shared.Abstractions;
 using Neon.Domain.ShopProducts.Entities;
@@ -15,6 +16,7 @@ public sealed class Product : Entity
     public string Slug { get; }
     public Category Category { get; }
     public List<CategoryAttributeValue> CategoryAttributeValues { get; }
+    public List<ProductAttribute> ProductAttributes { get; }
     public List<object> Images { get; }
     public List<Tag> Tags { get; }
     public List<Review> Reviews { get; }
