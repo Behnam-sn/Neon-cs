@@ -1,6 +1,6 @@
-using Neon.Domain.ProductAttributeValues.Entities;
 using Neon.Domain.Products.Entities;
 using Neon.Domain.Shared.Abstractions;
+using Neon.Domain.ShopProductAttributeValues.Entities;
 using Neon.Domain.ShopProducts.Enums;
 using Neon.Domain.Shops.Entities;
 
@@ -13,7 +13,7 @@ public sealed class ShopProduct : Entity
     public decimal Price { get; }
     public long Quantity { get; }
     public ShopProductStates State { get; }
-    public List<ProductAttributeValue> ProductAttributeValues { get; }
+    public List<ShopProductAttributeValue> ProductAttributeValues { get; }
 
     // Discount?
 }

@@ -1,12 +1,15 @@
+using Neon.Domain.MeasurementUnitValues.Entities;
 using Neon.Domain.ProductAttributes.Entities;
 using Neon.Domain.Shared.Abstractions;
-using Neon.Domain.Shops.Entities;
 
 namespace Neon.Domain.ProductAttributeValues.Entities;
 
 public sealed class ProductAttributeValue : Entity
 {
-    public string Value { get; }
+    public Guid ProductAttributeId { get; }
+    public Guid MeasurementUnitValueId { get; }
+
+    // Navigations
     public ProductAttribute ProductAttribute { get; }
-    public Shop Shop { get; }
+    public MeasurementUnitValue MeasurementUnitValue { get; }
 }
