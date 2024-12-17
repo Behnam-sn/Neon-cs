@@ -1,12 +1,12 @@
 using Neon.Domain.Categories.Entities;
-using Neon.Domain.CategoryAttributes.Enums;
 using Neon.Domain.Shared.Abstractions;
+using Neon.Domain.Shared.Enums;
 
 namespace Neon.Domain.CategoryAttributes.Entities;
 
 public sealed class CategoryAttribute : Entity
 {
     public string Title { get; }
-    public CategoryAttributeDataType DataType { get; }
+    public DataTypes DataType { get; }
     public Category Category { get; }
 }
