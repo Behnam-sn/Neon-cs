@@ -1,3 +1,3 @@
 namespace Neon.Domain.Shared.Abstractions;
 
-public abstract record DomainEvent(Guid Id) : IDomainEvent;
+public abstract record DomainEvent(DomainEventId Id) : IDomainEvent;
