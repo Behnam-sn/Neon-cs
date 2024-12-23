@@ -45,12 +45,14 @@ public sealed class Cart : AggregateRoot<CartId>
             shopId: shopId
         );
 
-        cart.RaiseDomainEvent(new CartCreatedDomainEvent(
-            Id: DomainEventId.Create(),
-            CartId: cart.Id,
-            OwnerId: cart.OwnerId,
-            ShopId: cart.ShopId
-        ));
+        cart.RaiseDomainEvent(
+            new CartCreatedDomainEvent(
+                Id: DomainEventId.Create(),
+                CartId: cart.Id,
+                OwnerId: cart.OwnerId,
+                ShopId: cart.ShopId
+            )
+        );
 
         return cart;
     }
