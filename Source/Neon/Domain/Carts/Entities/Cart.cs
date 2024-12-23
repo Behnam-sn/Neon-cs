@@ -1,17 +1,57 @@
 using Neon.Domain.CartItems.Entities;
 using Neon.Domain.Carts.Enums;
-using Neon.Domain.Deliveries.Entities;
+using Neon.Domain.Carts.Events;
+using Neon.Domain.Carts.ValueObjects;
 using Neon.Domain.Shared.Abstractions;
-using Neon.Domain.Shops.Entities;
-using Neon.Domain.Users.Entities;
 
 namespace Neon.Domain.Carts.Entities;
 
-public sealed class Cart : Entity
+public sealed class Cart : AggregateRoot<CartId>
 {
-    public CartStates State { get; }
-    public Shop Shop { get; }
-    public Customer Owner { get; }
-    public Delivery Delivery { get; }
-    public List<CartItem> Items { get; }
+    private readonly List<CartItem> _items = [];
+
+    public CartStatus Status { get; private set; }
+    public Guid OwnerId { get; }
+    public Guid ShopId { get; }
+    public Guid? DeliveryId { get; private set; }
+    public IEnumerable<CartItem> Items => _items;
+
+    private Cart()
+    {
+    }
+
+    private Cart(
+        CartId id,
+        CartStatus status,
+        Guid ownerId,
+        Guid shopId,
+        Guid? deliveryId = null,
+        List<CartItem>? items = null
+    ) : base(id)
+    {
+        Status = status;
+        OwnerId = ownerId;
+        ShopId = shopId;
+        DeliveryId = deliveryId;
+        _items = items?.ToList() ?? [];
+    }
+
+    public static Cart Create(Guid ownerId, Guid shopId)
+    {
+        var cart = new Cart(
+            id: CartId.Create(),
+            status: CartStatus.Active,
+            ownerId: ownerId,
+            shopId: shopId
+        );
+
+        cart.RaiseDomainEvent(new CartCreatedDomainEvent(
+            Id: DomainEventId.Create(),
+            CartId: cart.Id,
+            OwnerId: cart.OwnerId,
+            ShopId: cart.ShopId
+        ));
+
+        return cart;
+    }
 }

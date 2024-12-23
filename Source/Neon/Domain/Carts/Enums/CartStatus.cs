@@ -1,6 +1,6 @@
 namespace Neon.Domain.Carts.Enums;
 
-public enum CartStates
+public enum CartStatus
 {
     Active,
     Ordered,
